@@ -128,8 +128,8 @@ blockquote
 }
 
 #title{
-  width: 600px;
-  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 400px;
   font-size:25px;
   color:#1A445F;
