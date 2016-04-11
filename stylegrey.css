@@ -1,0 +1,244 @@
+﻿body
+{
+  background-color: #FCFCFA !important;
+	font-family:  Futura, 'Trebuchet MS', Arial, sans-serif !important;
+	color: #1A445F !important;
+  margin-left : 100px !important;
+  margin-right : 100px !important;
+}
+
+.holder {   
+  width: auto;
+  display: inline-block;    
+}
+
+.holder img {
+  width: 60%; 
+  height: auto;    
+}​
+
+blockquote
+{
+  font-style: italic;
+  margin-left: 32px;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+#container,
+#container1 {
+    float:left;
+}
+
+.tree, .tree ul {
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.tree ul {
+    margin-left:1em;
+    position:relative
+}
+.tree ul ul {
+    margin-left:.5em
+}
+.tree ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    border-left:1px solid
+}
+.tree li {
+    margin:0;
+    padding:0 1em;
+    line-height:2em;
+    font-weight:700;
+    position:relative
+}
+.tree ul li:before {
+    content:"";
+    display:block;
+    width:10px;
+    height:0;
+    border-top:1px solid;
+    margin-top:-1px;
+    position:absolute;
+    top:1em;
+    left:0
+}
+.tree ul li:last-child:before {
+    background:#fff;
+    height:auto;
+    top:1em;
+    bottom:0
+}
+.indicator {
+    margin-right:5px;
+}
+.tree li a {
+    text-decoration: none;
+}
+
+#base1{
+  color:#138d90;
+}
+
+#base2{
+  color:#FD3C3C;
+}
+
+#base3{
+  color:#FFB74C;
+}
+
+.tree li button, .tree li button:active, .tree li button:focus {
+    text-decoration: none;
+    color:#369;
+    border:none;
+    background:transparent;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    outline: 0;
+}
+
+#tree1{
+  color:#138d90;
+}
+
+#tree2{
+  color:#FD3C3C;
+}
+
+#tree3{
+  color:#FFB74C;
+}
+
+#tree{
+  width: 4700px;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#title{
+  width: 600px;
+  height: 50px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-size:25px;
+  color:#1A445F;
+}
+
+#map{
+  width: 900px; 
+  height: 600px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#param{
+  width: 2000px;
+  height: 100px;
+  margin-top: 50px;
+  margin-right: 400px;
+  margin-bottom: 50px;
+  margin-left: 4750px;
+}
+
+
+#param_bis{
+  width: 3000px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+/*  margin-left: 475px;
+  margin-right: 40px;*/
+  margin-left: auto !important;
+  margin-right: auto !important;
+ }
+
+#button1{
+  background: #061283;
+  color: #ffffff;
+  border: #0071A4;
+}
+
+#button2{
+  background: #138d90;
+  color: #ffffff;
+  border: #FF4000;
+}
+
+#button3{
+  background: #FD3C3C;
+  color: #ffffff;
+  border: #04B486
+}
+
+#button4{
+  background: #FFB74C;
+  color: #ffffff;
+  border: #F7FE2E
+}
+
+#button5{
+  background: #061283;
+  color: #ffffff;
+  border: #0071A4;
+}
+
+#button6{
+  background: #138d90;
+  color: #ffffff;
+  border: #FF4000;
+}
+
+#button7{
+  background: #FD3C3C;
+  color: #ffffff;
+  border: #04B486
+}
+
+#button8{
+  background: #FFB74C;
+  color: #ffffff;
+  border: #F7FE2E
+}
+
+
+#tableau{
+  width: 600px;
+  height: 400px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow:scroll;
+  color: #1A445F;
+}
+
+
+#classement{
+    width: 580px;
+    height: 330px;
+}
+
+#spider{
+  width: 1000px;
+  height: 100px;
+  color: #1A445F;
+}
+
+#bar{
+  width: 500px;
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  margin-left: 475px;
+}
+<img src="BHN1.png" alt="Comparison" style="width:40px;">
+					 <img src="BHN2.png" alt="Comparison" style="width:40px;">
+					  <img src="BHN3.png" alt="Comparison" style="width:40px;">
