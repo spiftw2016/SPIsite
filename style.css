@@ -121,7 +121,10 @@ blockquote
 }
 
 #intro{
-
+height: 10px;
+}
+#intro1{
+height: 10px;
 }
 
 #title{
