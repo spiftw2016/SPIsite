@@ -120,6 +120,14 @@ blockquote
   margin-left: 100px;
 }
 
+#intro{
+  width: 600px;
+  height: 150px;
+  margin-left: 400px;
+  font-size:25px;
+  color:#1A445F;
+}
+
 #title{
   width: 600px;
   height: 50px;
